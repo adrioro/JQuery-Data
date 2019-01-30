@@ -13,3 +13,11 @@ $(document).ready(function () {
         alert(divNumber);
     });
 });
+
+//$(document).ready(function () {
+$("#button").click(function () {
+    var myData = $("textarea").data("name");
+    $("textarea").after("<br>" + myData + "<br>");
+
+});
+//});
